@@ -1116,12 +1116,12 @@ body {
 
 /* footer */
 
-.footer {
-  background-image: url(../images/order/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 80px 0px 30px;
+footer {
+  display: flex;
+  justify-content: center;
+  img{
+    width: 100%;
+  }
 }
 
 .footer__copyright {
